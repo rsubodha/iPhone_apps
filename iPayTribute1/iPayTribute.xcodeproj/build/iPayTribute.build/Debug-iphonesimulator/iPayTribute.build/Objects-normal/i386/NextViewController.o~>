@@ -1,0 +1,15 @@
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/NextViewController.m: In function '-[NextViewController changeText:]':
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/NextViewController.m:57: error: 'lblTxt' undeclared (first use in this function)
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/NextViewController.m:57: error: (Each undeclared identifier is reported only once
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/NextViewController.m:57: error: for each function it appears in.)
+{standard input}:99:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000002$pb"
+{standard input}:99:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+{standard input}:95:non-relocatable subtraction expression, "L_OBJC_CLASS_NextViewController" minus "L00000000002$pb"
+{standard input}:95:symbol: "L_OBJC_CLASS_NextViewController" can't be undefined in a subtraction expression
+{standard input}:53:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+{standard input}:53:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:49:non-relocatable subtraction expression, "L_OBJC_CLASS_NextViewController" minus "L00000000001$pb"
+{standard input}:49:symbol: "L_OBJC_CLASS_NextViewController" can't be undefined in a subtraction expression
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_NextViewController
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1

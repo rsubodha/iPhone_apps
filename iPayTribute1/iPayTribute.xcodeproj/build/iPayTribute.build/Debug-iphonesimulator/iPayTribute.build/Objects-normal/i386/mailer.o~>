@@ -1,0 +1,3 @@
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/mailer.m:237: warning: incomplete implementation of class 'mailer'
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/mailer.m:237: warning: method definition for '-launchMailAppOnDevice' not found
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/mailer.m:237: warning: method definition for '-displayComposerSheet' not found

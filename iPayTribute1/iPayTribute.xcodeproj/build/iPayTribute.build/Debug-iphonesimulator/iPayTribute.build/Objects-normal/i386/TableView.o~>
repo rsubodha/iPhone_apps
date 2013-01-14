@@ -1,0 +1,4 @@
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/TableView.m: In function '-[TableView setLabelText:]':
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/TableView.m:16: error: 'cellText' undeclared (first use in this function)
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/TableView.m:16: error: (Each undeclared identifier is reported only once
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/TableView.m:16: error: for each function it appears in.)

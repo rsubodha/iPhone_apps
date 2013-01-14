@@ -1,0 +1,10 @@
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/Book.m:14: error: no declaration of property 'title' found in the interface
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/Book.m:14: error: no declaration of property 'author' found in the interface
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/Book.m:14: error: no declaration of property 'summary' found in the interface
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/Book.m:14: error: no declaration of property 'bookID' found in the interface
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/Book.m: In function '-[Book dealloc]':
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/Book.m:20: error: 'summary' undeclared (first use in this function)
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/Book.m:20: error: (Each undeclared identifier is reported only once
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/Book.m:20: error: for each function it appears in.)
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/Book.m:21: error: 'author' undeclared (first use in this function)
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/Book.m:22: error: 'title' undeclared (first use in this function)

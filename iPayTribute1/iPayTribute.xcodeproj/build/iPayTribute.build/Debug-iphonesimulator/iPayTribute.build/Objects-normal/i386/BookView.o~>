@@ -1,0 +1,10 @@
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/BookView.m:13: error: no declaration of property 'aBook' found in the interface
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/BookView.m: In function '-[BookView viewWillAppear:]':
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/BookView.m:34: error: 'tableView' undeclared (first use in this function)
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/BookView.m:34: error: (Each undeclared identifier is reported only once
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/BookView.m:34: error: for each function it appears in.)
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/BookView.m: In function '-[BookView tableView:cellForRowAtIndexPath:]':
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/BookView.m:106: error: 'aBook' undeclared (first use in this function)
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/BookView.m: In function '-[BookView dealloc]':
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/BookView.m:167: error: 'aBook' undeclared (first use in this function)
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute1/iPayTribute.xcodeproj/Classes/BookView.m:168: error: 'tableView' undeclared (first use in this function)

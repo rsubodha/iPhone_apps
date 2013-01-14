@@ -1,0 +1,20 @@
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/TableViewCell.m: In function '-[TableViewCell setLabelText:]':
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/TableViewCell.m:37: error: 'cellText' undeclared (first use in this function)
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/TableViewCell.m:37: error: (Each undeclared identifier is reported only once
+/Users/meenakshisubodha/raghu/iPhone_apps/iPayTribute/iPayTribute.xcodeproj/Classes/TableViewCell.m:37: error: for each function it appears in.)
+{standard input}:139:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000003$pb"
+{standard input}:139:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+{standard input}:135:non-relocatable subtraction expression, "L_OBJC_CLASS_TableViewCell" minus "L00000000003$pb"
+{standard input}:135:symbol: "L_OBJC_CLASS_TableViewCell" can't be undefined in a subtraction expression
+{standard input}:103:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000002$pb"
+{standard input}:103:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+{standard input}:97:non-relocatable subtraction expression, "L_OBJC_CLASS_TableViewCell" minus "L00000000002$pb"
+{standard input}:97:symbol: "L_OBJC_CLASS_TableViewCell" can't be undefined in a subtraction expression
+{standard input}:54:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+{standard input}:54:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:50:non-relocatable subtraction expression, "L_OBJC_CLASS_TableViewCell" minus "L00000000001$pb"
+{standard input}:50:symbol: "L_OBJC_CLASS_TableViewCell" can't be undefined in a subtraction expression
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_TableViewCell
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
