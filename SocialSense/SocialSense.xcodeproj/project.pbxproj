@@ -14,6 +14,7 @@
 		AC3203C119B8D2FB00022A0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3203C019B8D2FB00022A0B /* Images.xcassets */; };
 		AC3203CD19B8D2FB00022A0B /* SocialSenseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3203CC19B8D2FB00022A0B /* SocialSenseTests.m */; };
 		AC3203DA19B8D3F800022A0B /* crowdsourcing-transparent-300x298.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3203D919B8D3F800022A0B /* crowdsourcing-transparent-300x298.png */; };
+		AC3203ED19B8E0F600022A0B /* UIViewController+pageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3203EC19B8E0F600022A0B /* UIViewController+pageContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		AC3203CC19B8D2FB00022A0B /* SocialSenseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialSenseTests.m; sourceTree = "<group>"; };
 		AC3203D719B8D32600022A0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		AC3203D919B8D3F800022A0B /* crowdsourcing-transparent-300x298.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "crowdsourcing-transparent-300x298.png"; path = "../../../../Downloads/crowdsourcing-transparent-300x298.png"; sourceTree = "<group>"; };
+		AC3203EB19B8E0F600022A0B /* UIViewController+pageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+pageContentViewController.h"; sourceTree = "<group>"; };
+		AC3203EC19B8E0F600022A0B /* UIViewController+pageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+pageContentViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,7 @@
 				AC3203BA19B8D2FB00022A0B /* ViewController.h */,
 				AC3203BB19B8D2FB00022A0B /* ViewController.m */,
 				AC3203BD19B8D2FB00022A0B /* Main.storyboard */,
+				AC3203E019B8DA4500022A0B /* Page Controllers */,
 				AC3203C019B8D2FB00022A0B /* Images.xcassets */,
 				AC3203B319B8D2FB00022A0B /* Supporting Files */,
 			);
@@ -126,6 +130,15 @@
 				AC3203D919B8D3F800022A0B /* crowdsourcing-transparent-300x298.png */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		AC3203E019B8DA4500022A0B /* Page Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC3203EB19B8E0F600022A0B /* UIViewController+pageContentViewController.h */,
+				AC3203EC19B8E0F600022A0B /* UIViewController+pageContentViewController.m */,
+			);
+			name = "Page Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +243,7 @@
 			files = (
 				AC3203BC19B8D2FB00022A0B /* ViewController.m in Sources */,
 				AC3203B919B8D2FB00022A0B /* AppDelegate.m in Sources */,
+				AC3203ED19B8E0F600022A0B /* UIViewController+pageContentViewController.m in Sources */,
 				AC3203B619B8D2FB00022A0B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
