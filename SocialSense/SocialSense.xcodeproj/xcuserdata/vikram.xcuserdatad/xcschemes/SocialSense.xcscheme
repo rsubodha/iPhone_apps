@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC32037D19B8D14F00022A0B"
+               BlueprintIdentifier = "AC3203AF19B8D2FA00022A0B"
                BuildableName = "SocialSense.app"
                BlueprintName = "SocialSense"
                ReferencedContainer = "container:SocialSense.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC32039619B8D15000022A0B"
+               BlueprintIdentifier = "AC3203C519B8D2FB00022A0B"
                BuildableName = "SocialSenseTests.xctest"
                BlueprintName = "SocialSenseTests"
                ReferencedContainer = "container:SocialSense.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC32039619B8D15000022A0B"
+               BlueprintIdentifier = "AC3203C519B8D2FB00022A0B"
                BuildableName = "SocialSenseTests.xctest"
                BlueprintName = "SocialSenseTests"
                ReferencedContainer = "container:SocialSense.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC32037D19B8D14F00022A0B"
+            BlueprintIdentifier = "AC3203AF19B8D2FA00022A0B"
             BuildableName = "SocialSense.app"
             BlueprintName = "SocialSense"
             ReferencedContainer = "container:SocialSense.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC32037D19B8D14F00022A0B"
+            BlueprintIdentifier = "AC3203AF19B8D2FA00022A0B"
             BuildableName = "SocialSense.app"
             BlueprintName = "SocialSense"
             ReferencedContainer = "container:SocialSense.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC32037D19B8D14F00022A0B"
+            BlueprintIdentifier = "AC3203AF19B8D2FA00022A0B"
             BuildableName = "SocialSense.app"
             BlueprintName = "SocialSense"
             ReferencedContainer = "container:SocialSense.xcodeproj">
