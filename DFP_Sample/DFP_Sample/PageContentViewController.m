@@ -7,6 +7,7 @@
 //
 
 #import "PageContentViewController.h"
+#import "webViewViewController.h"
 
 @interface PageContentViewController ()
 
@@ -26,5 +27,8 @@
 }
 
 - (IBAction)startWalkThrough:(id)sender {
+    
+    webViewViewController *loadWebViewViewController = [[webViewViewController alloc] init];
+    [self.navigationController pushViewController:loadWebViewViewController animated:YES];
 }
 @end

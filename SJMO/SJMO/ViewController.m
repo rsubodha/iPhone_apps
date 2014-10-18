@@ -93,6 +93,9 @@
         case 1:
             [self performSegueWithIdentifier:@"services" sender:nil];
             break;
+        case 2:
+            [self performSegueWithIdentifier:@"directory" sender:nil];
+            break;
         default:
             break;
     }
@@ -133,8 +136,16 @@
         controller.view.frame = self.view.bounds;
         [self.view addSubview:controller.view];
         [controller didMoveToParentViewController:self];
+    } else if ([[segue identifier]isEqualToString:@"directory"]) {
+        NSLog(@"clicked directory cell");
+        
+        [self clearAllViewControllers];
+        UIViewController *controller = [segue destinationViewController];
+        [self addChildViewController:controller];
+        controller.view.frame = self.view.bounds;
+        [self.view addSubview:controller.view];
+        [controller didMoveToParentViewController:self];
     }
-     
      else {
         NSLog(@"clicked someother button");
          

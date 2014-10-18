@@ -1,26 +1,25 @@
 //
-//  aboutUSViewController.m
-//  SJMO
+//  webViewViewController.m
+//  DFP_Sample
 //
-//  Created by Raghuveer Subodha on 06/10/14.
+//  Created by Raghuveer Subodha on 13/10/14.
 //  Copyright (c) 2014 Appcellence. All rights reserved.
 //
 
-#import "aboutUSViewController.h"
+#import "webViewViewController.h"
 
-@interface aboutUSViewController ()
+@interface webViewViewController ()
 
 @end
 
-@implementation aboutUSViewController
+@implementation webViewViewController
 @synthesize webView;
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"About" ofType:@"html"]isDirectory:NO]]];
     // Do any additional setup after loading the view.
+    
+        [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"1" ofType:@"html"]isDirectory:NO]]];
 }
 
 - (void)didReceiveMemoryWarning {

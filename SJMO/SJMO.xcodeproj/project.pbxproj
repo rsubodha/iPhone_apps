@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB3C17D119E908DF00D4C56A /* directoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3C17D019E908DF00D4C56A /* directoryViewController.m */; };
 		CB5B937319E2B90F005CE046 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5B936619E2B90F005CE046 /* about.png */; };
 		CB5B937519E2B90F005CE046 /* alerts.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5B936819E2B90F005CE046 /* alerts.png */; };
 		CB5B937719E2B90F005CE046 /* directory.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5B936A19E2B90F005CE046 /* directory.png */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB3C17CF19E908DF00D4C56A /* directoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = directoryViewController.h; sourceTree = "<group>"; };
+		CB3C17D019E908DF00D4C56A /* directoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = directoryViewController.m; sourceTree = "<group>"; };
 		CB5B936619E2B90F005CE046 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = about.png; path = "../../../../Downloads/sjmo-ios/Images/iPhone/Home/about.png"; sourceTree = "<group>"; };
 		CB5B936819E2B90F005CE046 /* alerts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alerts.png; path = "../../../../Downloads/sjmo-ios/Images/iPhone/Home/alerts.png"; sourceTree = "<group>"; };
 		CB5B936A19E2B90F005CE046 /* directory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = directory.png; path = "../../../../Downloads/sjmo-ios/Images/iPhone/Home/directory.png"; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 				CB5B938019E2D6F7005CE046 /* aboutUSViewController.m */,
 				CB64797419E8011400E1D945 /* customSegue.h */,
 				CB64797519E8011400E1D945 /* customSegue.m */,
+				CB3C17CF19E908DF00D4C56A /* directoryViewController.h */,
+				CB3C17D019E908DF00D4C56A /* directoryViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3C17D119E908DF00D4C56A /* directoryViewController.m in Sources */,
 				CB5B938419E2D712005CE046 /* servicesViewController.m in Sources */,
 				CBC15B4419DDB462001122BD /* AppDelegate.m in Sources */,
 				CBC15B4119DDB462001122BD /* main.m in Sources */,

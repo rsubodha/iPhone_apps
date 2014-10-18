@@ -1,25 +1,21 @@
 //
-//  aboutUSViewController.m
+//  directoryViewController.m
 //  SJMO
 //
-//  Created by Raghuveer Subodha on 06/10/14.
+//  Created by Raghuveer Subodha on 11/10/14.
 //  Copyright (c) 2014 Appcellence. All rights reserved.
 //
 
-#import "aboutUSViewController.h"
+#import "directoryViewController.h"
 
-@interface aboutUSViewController ()
+@interface directoryViewController ()
 
 @end
 
-@implementation aboutUSViewController
-@synthesize webView;
-
+@implementation directoryViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"About" ofType:@"html"]isDirectory:NO]]];
     // Do any additional setup after loading the view.
 }
 

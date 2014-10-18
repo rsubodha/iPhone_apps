@@ -18,6 +18,9 @@
 		AC8E043F19BF47D800EECFAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8E043D19BF47D800EECFAD /* Main.storyboard */; };
 		AC8E044119BF47D800EECFAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8E044019BF47D800EECFAD /* Images.xcassets */; };
 		AC8E044D19BF47D800EECFAD /* DFP_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8E044C19BF47D800EECFAD /* DFP_SampleTests.m */; };
+		CBC5772719EBBD1200E700B3 /* webViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5772619EBBD1200E700B3 /* webViewViewController.m */; };
+		CBC5772E19EBD20F00E700B3 /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = CBC5772C19EBD20F00E700B3 /* 1.html */; };
+		CBC5772F19EBD20F00E700B3 /* About.html in Resources */ = {isa = PBXBuildFile; fileRef = CBC5772D19EBD20F00E700B3 /* About.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,10 @@
 		AC8E044619BF47D800EECFAD /* DFP_SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFP_SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8E044B19BF47D800EECFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC8E044C19BF47D800EECFAD /* DFP_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFP_SampleTests.m; sourceTree = "<group>"; };
+		CBC5772519EBBD1200E700B3 /* webViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewViewController.h; sourceTree = "<group>"; };
+		CBC5772619EBBD1200E700B3 /* webViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewViewController.m; sourceTree = "<group>"; };
+		CBC5772C19EBD20F00E700B3 /* 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 1.html; path = ../../HTML_Files/1.html; sourceTree = "<group>"; };
+		CBC5772D19EBD20F00E700B3 /* About.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = About.html; path = ../../HTML_Files/About.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +79,8 @@
 		AC70396E19C0C4B6000EF5C9 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				CBC5772C19EBD20F00E700B3 /* 1.html */,
+				CBC5772D19EBD20F00E700B3 /* About.html */,
 				AC70397719C0CA1A000EF5C9 /* categoryPage1.png */,
 				AC70397819C0CA1A000EF5C9 /* categoryPage2.png */,
 				AC70397919C0CA1A000EF5C9 /* categoryPage3.png */,
@@ -112,6 +121,8 @@
 				AC8E043319BF47D700EECFAD /* Supporting Files */,
 				AC70396B19C0B3BD000EF5C9 /* PageContentViewController.h */,
 				AC70396C19C0B3BD000EF5C9 /* PageContentViewController.m */,
+				CBC5772519EBBD1200E700B3 /* webViewViewController.h */,
+				CBC5772619EBBD1200E700B3 /* webViewViewController.m */,
 			);
 			path = DFP_Sample;
 			sourceTree = "<group>";
@@ -191,9 +202,11 @@
 				TargetAttributes = {
 					AC8E042F19BF47D700EECFAD = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 2DL4PX587D;
 					};
 					AC8E044519BF47D800EECFAD = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 2DL4PX587D;
 						TestTargetID = AC8E042F19BF47D700EECFAD;
 					};
 				};
@@ -222,6 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC5772F19EBD20F00E700B3 /* About.html in Resources */,
+				CBC5772E19EBD20F00E700B3 /* 1.html in Resources */,
 				AC70397D19C0CA1A000EF5C9 /* categoryPage3.png in Resources */,
 				AC8E043F19BF47D800EECFAD /* Main.storyboard in Resources */,
 				AC70397C19C0CA1A000EF5C9 /* categoryPage2.png in Resources */,
@@ -249,6 +264,7 @@
 				AC70396D19C0B3BD000EF5C9 /* PageContentViewController.m in Sources */,
 				AC8E043919BF47D700EECFAD /* AppDelegate.m in Sources */,
 				AC8E043619BF47D700EECFAD /* main.m in Sources */,
+				CBC5772719EBBD1200E700B3 /* webViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +315,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Raghuveer Subodha (X93D73DS52)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Raghuveer Subodha (X93D73DS52)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -316,9 +333,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "218368bc-51fb-4836-9d22-6c3e9c2e20fd";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -341,7 +359,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Raghuveer Subodha (X93D73DS52)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Raghuveer Subodha (X93D73DS52)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -352,8 +371,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "218368bc-51fb-4836-9d22-6c3e9c2e20fd";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -365,9 +385,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DFP_Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -376,9 +399,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DFP_Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -386,6 +412,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -397,6 +425,7 @@
 				INFOPLIST_FILE = DFP_SampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFP_Sample.app/DFP_Sample";
 			};
 			name = Debug;
@@ -405,6 +434,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -412,6 +443,7 @@
 				INFOPLIST_FILE = DFP_SampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFP_Sample.app/DFP_Sample";
 			};
 			name = Release;
