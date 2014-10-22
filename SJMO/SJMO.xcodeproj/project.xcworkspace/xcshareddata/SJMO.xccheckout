@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>70C025B0-8151-43F5-B90D-36C54ABDCAF0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SJMO</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7CC19E101523774A6CA72C364AA6A90F34BE4527</key>
+		<string>https://github.com/rsubodha/iPhone_apps.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SJMO/SJMO.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7CC19E101523774A6CA72C364AA6A90F34BE4527</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rsubodha/iPhone_apps.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7CC19E101523774A6CA72C364AA6A90F34BE4527</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7CC19E101523774A6CA72C364AA6A90F34BE4527</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iPhone_apps</string>
+		</dict>
+	</array>
+</dict>
+</plist>
