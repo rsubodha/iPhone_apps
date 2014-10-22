@@ -1,27 +1,21 @@
 //
-//  aboutUSViewController.m
+//  servicesDetailedViewController.m
 //  SJMO
 //
-//  Created by Raghuveer Subodha on 06/10/14.
+//  Created by Raghuveer Subodha on 22/10/14.
 //  Copyright (c) 2014 Appcellence. All rights reserved.
 //
 
-#import "aboutUSViewController.h"
+#import "servicesDetailedViewController.h"
 
-@interface aboutUSViewController ()
+@interface servicesDetailedViewController ()
 
 @end
 
-@implementation aboutUSViewController
-@synthesize webView;
-
+@implementation servicesDetailedViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    NSLog(@"I'm in webview");
-    
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"1" ofType:@"html"]isDirectory:NO]]];
     // Do any additional setup after loading the view.
 }
 

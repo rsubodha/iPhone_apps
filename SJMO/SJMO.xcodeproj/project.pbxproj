@@ -27,6 +27,8 @@
 		CBC15B4D19DDB462001122BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC15B4B19DDB462001122BD /* Main.storyboard */; };
 		CBC15B4F19DDB462001122BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC15B4E19DDB462001122BD /* Images.xcassets */; };
 		CBC15B5B19DDB462001122BD /* SJMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC15B5A19DDB462001122BD /* SJMOTests.m */; };
+		CBE4E36319F6E7BD005CBAB1 /* servicesDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE4E36219F6E7BD005CBAB1 /* servicesDetailedViewController.m */; };
+		CBE4E36519F77122005CBAB1 /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = CBE4E36419F77122005CBAB1 /* 1.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,9 @@
 		CBC15B5419DDB462001122BD /* SJMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJMOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC15B5919DDB462001122BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBC15B5A19DDB462001122BD /* SJMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJMOTests.m; sourceTree = "<group>"; };
+		CBE4E36119F6E7BD005CBAB1 /* servicesDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = servicesDetailedViewController.h; sourceTree = "<group>"; };
+		CBE4E36219F6E7BD005CBAB1 /* servicesDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = servicesDetailedViewController.m; sourceTree = "<group>"; };
+		CBE4E36419F77122005CBAB1 /* 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = 1.html; path = ../HTML_Files/1.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,8 @@
 				CB64797519E8011400E1D945 /* customSegue.m */,
 				CB3C17CF19E908DF00D4C56A /* directoryViewController.h */,
 				CB3C17D019E908DF00D4C56A /* directoryViewController.m */,
+				CBE4E36119F6E7BD005CBAB1 /* servicesDetailedViewController.h */,
+				CBE4E36219F6E7BD005CBAB1 /* servicesDetailedViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -108,6 +115,7 @@
 		CB5B93CA19E2FF64005CE046 /* HTMLS */ = {
 			isa = PBXGroup;
 			children = (
+				CBE4E36419F77122005CBAB1 /* 1.html */,
 				CB5B93CB19E2FF80005CE046 /* About.html */,
 			);
 			name = HTMLS;
@@ -291,6 +299,7 @@
 				CB5B93CC19E2FF80005CE046 /* About.html in Resources */,
 				CB5B937319E2B90F005CE046 /* about.png in Resources */,
 				CB5B937719E2B90F005CE046 /* directory.png in Resources */,
+				CBE4E36519F77122005CBAB1 /* 1.html in Resources */,
 				CB5B937E19E2B90F005CE046 /* services.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE4E36319F6E7BD005CBAB1 /* servicesDetailedViewController.m in Sources */,
 				CB3C17D119E908DF00D4C56A /* directoryViewController.m in Sources */,
 				CB5B938419E2D712005CE046 /* servicesViewController.m in Sources */,
 				CBC15B4419DDB462001122BD /* AppDelegate.m in Sources */,
