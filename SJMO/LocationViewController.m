@@ -48,7 +48,7 @@
                                            @"backgroundColor":@""
                                            },
                                    @"properties":@{
-                                           @"scrollable": @"YES"
+                                           @"scrollable": @"NO"
                                            },
                                    @"data":@{
                                            @"callbackFunction": @"onComplete",
