@@ -1,0 +1,90 @@
+{
+    "id": "ATKCollectionView1",
+    "name": "ATKCollectionView1",
+    "class":"ATKCollectionView",
+    "notificationId": "",
+    "style": {
+        "y":50,
+        "x":10,
+        "height": 200,
+        "width": 300,
+        "backgroundColor": "#C3D4EC"
+    },
+    "properties": {
+        "layoutType": "coverFlow",
+        "scrollDirection": "horizontal",
+        "itemLayout": {
+            "x": 0,
+            "y": 0,
+            "width": 160,
+            "height": 150,
+            "backgroundColor": "#f0f0f0",
+            "components": [
+                           {
+                           "bindKey": "title",
+                           "componentJSON": {
+                           "id": "titleLabelId",
+                           "name": "titleLabelName",
+                           "class":"ATKLabel",
+                           "notificationId": "",
+                           "style": {
+                           "x": 10,
+                           "y": 10,
+                           "width": 180,
+                           "height": 40,
+                           "backgroundColor": "",
+                           "text": "",
+                           "fontName": "AvenirNext-Regular",
+                           "fontSize": 15,
+                           "fontColor": "#000000",
+                           "bindKey": "title"
+                           },
+                           "properties": {
+                           "text": "test"
+                           },
+                           "data": {
+                           }
+                           }
+                           },
+                           {
+                           "bindKey": "image",
+                           "componentJSON": {
+                           "id": "imageViewId1",
+                           "name": "imageViewId1",
+                           "class":"ATKImageView",
+                           "notificationId": "imageViewId1",
+                           "style": {
+                           "x": 10,
+                           "y": 50,
+                           "width": 140,
+                           "height": 80,
+                           "backgroundColor": "#ffff00"
+                           },
+                           "properties": {
+                           },
+                           "data": {
+                           "source": "nada.png",
+                           "type": "local"
+                           }
+                           }
+                           }
+                           ]
+        }
+    },
+    "data": {
+        "type": "local",
+        "source": "DataStore/Carousel/collectionViewData1.json",
+        "params": "",
+        "returnType": "Dictionary"
+    },
+    "actions": [
+                {
+                "event": "ATKActionSelect",
+                "type": "javascript",
+                "params": {
+                "webId": "webView1",
+                "callbackFunction": "onSelectCarousel"
+                }
+                }
+                ]
+}
