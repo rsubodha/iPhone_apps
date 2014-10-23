@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
@@ -37,7 +37,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bdW-QZ-MXv">
@@ -86,9 +86,10 @@
                     </view>
                     <connections>
                         <outlet property="parallaxImageView" destination="6op-UH-zDC" id="CaY-pp-S0h"/>
-                        <segue destination="16w-OE-Wti" kind="custom" identifier="about" customClass="customSegue" id="waV-d6-661"/>
                         <segue destination="XVw-dt-PUg" kind="custom" identifier="directory" customClass="customSegue" id="FZr-Hy-WDY"/>
                         <segue destination="ZrV-zx-HHU" kind="custom" identifier="location" customClass="customSegue" id="X9f-vB-znl"/>
+                        <segue destination="Xmv-H6-ajE" kind="custom" identifier="services" customClass="customSegue" id="YHF-RN-Pkc"/>
+                        <segue destination="kcx-zy-xMA" kind="custom" identifier="about" customClass="customSegue" id="IPM-w9-Lp0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -96,69 +97,84 @@
             <point key="canvasLocation" x="4640" y="-891"/>
         </scene>
         <!--AboutUS View Controller-->
-        <scene sceneID="52E-SC-LT4">
+        <scene sceneID="XgJ-JU-kkc">
             <objects>
-                <viewController id="16w-OE-Wti" customClass="aboutUSViewController" sceneMemberID="viewController">
+                <viewController id="kcx-zy-xMA" customClass="aboutUSViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YYX-sp-dgq"/>
-                        <viewControllerLayoutGuide type="bottom" id="nRO-QQ-2kD"/>
+                        <viewControllerLayoutGuide type="top" id="TeL-Ni-Lk7"/>
+                        <viewControllerLayoutGuide type="bottom" id="mUZ-nM-Bh1"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Bxy-Td-lQc">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="fU0-t7-8Wb">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="parallax" translatesAutoresizingMaskIntoConstraints="NO" id="bvI-1t-nn7">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="05f-5g-DoG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="webViewImage" translatesAutoresizingMaskIntoConstraints="NO" id="yZT-4a-s9b">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                                        </variation>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5GA-oA-ZKw">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <state key="normal" title="&lt; HOME">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="5" y="10" width="60" height="30"/>
+                                        </variation>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" id="cgV-xQ-H8R"/>
+                                        </connections>
+                                    </button>
+                                    <webView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JQ5-5H-MCS">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="0.0" y="45" width="400" height="755"/>
+                                        </variation>
+                                    </webView>
+                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="-19" width="400" height="819"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="yZT-4a-s9b"/>
+                                        <exclude reference="5GA-oA-ZKw"/>
+                                        <exclude reference="JQ5-5H-MCS"/>
+                                    </mask>
                                 </variation>
-                            </imageView>
-                            <webView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BCP-D0-yfa">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="-5" y="42" width="405" height="758"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                                    <mask key="subviews">
+                                        <include reference="yZT-4a-s9b"/>
+                                        <include reference="5GA-oA-ZKw"/>
+                                        <include reference="JQ5-5H-MCS"/>
+                                    </mask>
                                 </variation>
-                            </webView>
-                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hpp-Ud-s48">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="&lt; HOME">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="4" y="15" width="60" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="kDM-Yk-4kn"/>
-                                </connections>
-                            </button>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="bvI-1t-nn7"/>
-                                <exclude reference="BCP-D0-yfa"/>
-                                <exclude reference="Hpp-Ud-s48"/>
+                                <exclude reference="05f-5g-DoG"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="bvI-1t-nn7"/>
-                                <include reference="BCP-D0-yfa"/>
-                                <include reference="Hpp-Ud-s48"/>
+                                <include reference="05f-5g-DoG"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="BCP-D0-yfa" id="h0U-7M-fZh"/>
+                        <outlet property="webView" destination="JQ5-5H-MCS" id="83v-yY-SGe"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0Tk-Uk-hE7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="idL-GK-X4y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4783.5" y="21"/>
+            <point key="canvasLocation" x="4701" y="30"/>
         </scene>
         <!--Services View Controller-->
         <scene sceneID="Hcr-fc-X6D">
@@ -174,7 +190,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RM-ao-28g">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="&lt; Home">
+                                <state key="normal" title="&lt; HOME">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -184,27 +200,26 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="gJV-b1-nO6"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="HOb-bl-wIo">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="U2t-L9-CAa">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ServicesTable" id="DPS-IM-ToX">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ServicesTable" id="fFh-O7-wBv">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DPS-IM-ToX" id="BTW-zL-1o1">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fFh-O7-wBv" id="UwV-pS-X54">
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="ay1-IF-Xe0" kind="presentation" id="uy3-8B-DPx"/>
+                                            <segue destination="Hbg-Fg-jv4" kind="show" identifier="Services Details" id="BTt-Xy-ZI1"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <sections/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="45" width="400" height="752"/>
+                                    <rect key="frame" x="0.0" y="43" width="330" height="757"/>
                                 </variation>
                                 <connections>
-                                    <outlet property="dataSource" destination="Xmv-H6-ajE" id="sAw-sX-F8G"/>
-                                    <outlet property="delegate" destination="Xmv-H6-ajE" id="pqr-Oq-IRH"/>
+                                    <outlet property="dataSource" destination="Xmv-H6-ajE" id="Zqj-sz-GO6"/>
+                                    <outlet property="delegate" destination="Xmv-H6-ajE" id="adG-8A-XXQ"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -212,13 +227,13 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="1RM-ao-28g"/>
-                                <exclude reference="HOb-bl-wIo"/>
+                                <exclude reference="U2t-L9-CAa"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="1RM-ao-28g"/>
-                                <include reference="HOb-bl-wIo"/>
+                                <include reference="U2t-L9-CAa"/>
                             </mask>
                         </variation>
                     </view>
@@ -226,47 +241,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bki-PF-vRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5629.5" y="21"/>
-        </scene>
-        <!--Service Details-->
-        <scene sceneID="Ioq-m6-Spc">
-            <objects>
-                <viewController id="3A6-jp-10a" customClass="servicesDetailedViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="WOn-41-bQt"/>
-                        <viewControllerLayoutGuide type="bottom" id="xp1-An-eMI"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8V3-p1-jOb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have Reached Services Detailed Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TPF-ia-jRs">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="5" y="140" width="387" height="21"/>
-                                </variation>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="TPF-ia-jRs"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="TPF-ia-jRs"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <navigationItem key="navigationItem" title="Service Details" id="8PW-OW-4ie"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1f3-xO-xjp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7300.5" y="723"/>
+            <point key="canvasLocation" x="5545.5" y="21"/>
         </scene>
         <!--Directory View Controller-->
         <scene sceneID="jRg-yB-bMb">
@@ -282,7 +257,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yR0-Dj-qdK">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="&lt; Home">
+                                <state key="normal" title="&lt; HOME">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -292,16 +267,27 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="wvf-hU-hma"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In Directory" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hF-eX-8RU">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="155" y="182" width="91" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="yR0-Dj-qdK"/>
+                                <exclude reference="1hF-eX-8RU"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="yR0-Dj-qdK"/>
+                                <include reference="1hF-eX-8RU"/>
                             </mask>
                         </variation>
                     </view>
@@ -310,23 +296,60 @@
             </objects>
             <point key="canvasLocation" x="6394.5" y="21"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="kos-dW-d9F">
+        <!--Services Detailed View Controller-->
+        <scene sceneID="1bX-7u-aSG">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ay1-IF-Xe0" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UGT-lD-cfw">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
+                <viewController id="Hbg-Fg-jv4" customClass="servicesDetailedViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q44-5y-Vlz"/>
+                        <viewControllerLayoutGuide type="bottom" id="7x6-1n-PCs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VSe-6b-R3b">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCY-jy-g2m">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="&lt; BACK">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="5" y="20" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Xmv-H6-ajE" kind="presentation" id="BRR-mi-Jbu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESl-Uj-Hi5">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="258" width="400" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="UCY-jy-g2m"/>
+                                <exclude reference="ESl-Uj-Hi5"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="UCY-jy-g2m"/>
+                                <include reference="ESl-Uj-Hi5"/>
+                            </mask>
+                        </variation>
+                    </view>
                     <connections>
-                        <segue destination="3A6-jp-10a" kind="relationship" relationship="rootViewController" id="9IY-RF-oM5"/>
+                        <outlet property="serviceLabel" destination="ESl-Uj-Hi5" id="0aW-nG-6bo"/>
                     </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ntg-aX-VFe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YgN-nO-tGg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6382.5" y="723"/>
+            <point key="canvasLocation" x="5545.5" y="729"/>
         </scene>
         <!--LocationView Controller-->
         <scene sceneID="FKg-Jo-BS7">
@@ -340,21 +363,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0or-dH-x7U">
-                                <rect key="frame" x="16" y="14" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPx-SX-ANq">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="&lt; HOME">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="4" y="15" width="60" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="x1y-vq-C9J"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="UUb-KS-X1e"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="UPx-SX-ANq"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="UPx-SX-ANq"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="presentation" id="Viv-Yl-WJ4"/>
@@ -362,13 +394,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lIV-I8-x0n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3811" y="-460"/>
+            <point key="canvasLocation" x="3855" y="21"/>
         </scene>
     </scenes>
     <resources>
         <image name="parallax" width="700" height="960"/>
+        <image name="webViewImage" width="1000" height="1623"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Viv-Yl-WJ4"/>
+        <segue reference="cgV-xQ-H8R"/>
+        <segue reference="YHF-RN-Pkc"/>
     </inferredMetricsTieBreakers>
 </document>
