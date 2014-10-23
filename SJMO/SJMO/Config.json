@@ -1,5 +1,5 @@
 {
-    "appName":"Chrysler Demo",
+    "appName":"SJMO",
     "contentFolder":"contentFolder/adaptive-development-framework/trunk/v1.0/sjmoHTML",
     "bootstrap":{
         "useEncryption":true,
