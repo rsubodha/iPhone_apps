@@ -88,11 +88,12 @@
                         <outlet property="parallaxImageView" destination="6op-UH-zDC" id="CaY-pp-S0h"/>
                         <segue destination="16w-OE-Wti" kind="custom" identifier="about" customClass="customSegue" id="waV-d6-661"/>
                         <segue destination="XVw-dt-PUg" kind="custom" identifier="directory" customClass="customSegue" id="FZr-Hy-WDY"/>
+                        <segue destination="ZrV-zx-HHU" kind="custom" identifier="location" customClass="customSegue" id="X9f-vB-znl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4688" y="-949"/>
+            <point key="canvasLocation" x="4640" y="-891"/>
         </scene>
         <!--AboutUS View Controller-->
         <scene sceneID="52E-SC-LT4">
@@ -327,11 +328,47 @@
             </objects>
             <point key="canvasLocation" x="6382.5" y="723"/>
         </scene>
+        <!--LocationView Controller-->
+        <scene sceneID="FKg-Jo-BS7">
+            <objects>
+                <viewController id="ZrV-zx-HHU" userLabel="LocationView Controller" customClass="LocationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O8n-nK-PGV"/>
+                        <viewControllerLayoutGuide type="bottom" id="IrI-VS-dpU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D5O-yh-E8F">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0or-dH-x7U">
+                                <rect key="frame" x="16" y="14" width="46" height="30"/>
+                                <state key="normal" title="&lt; HOME">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="4" y="15" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="x1y-vq-C9J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" id="Viv-Yl-WJ4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lIV-I8-x0n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3811" y="-460"/>
+        </scene>
     </scenes>
     <resources>
         <image name="parallax" width="700" height="960"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kDM-Yk-4kn"/>
+        <segue reference="Viv-Yl-WJ4"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ATKVision.h"
+#import "LocationViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+  //  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    [ATKConfigManager initialize];
+    
+//    LocationViewController* mainView = [[LocationViewController alloc] init];
+//    
+//    NSString* navigationControllerClassName = @"ATKUICustomNavigationController";
+//    UINavigationController*  customNavigationController = [NSClassFromString(navigationControllerClassName) alloc];
+//    
+//    self.rootNavigationController = [customNavigationController initWithRootViewController:mainView];
+//    
+//    //Hide navigation controller
+//    [self.rootNavigationController.navigationBar setHidden:YES];
+//    self.window.rootViewController = self.rootNavigationController;
+//    
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible]; 
+    
     return YES;
 }
 

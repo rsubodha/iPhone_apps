@@ -23,6 +23,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    //Start : To Remove and load the Bg as before .
+    
+    UIColor *background = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"bg.jpg"]];
+    self.view.backgroundColor = background;
+    
+    // End
+    
     options = [[NSArray alloc] initWithObjects:@"about.png",@"alerts.png",@"directory.png",@"locations.png",@"maps.png",@"services.png", nil];
     // Do any additional setup after loading the view, typically from a nib.
     
@@ -96,6 +104,9 @@
         case 2:
             [self performSegueWithIdentifier:@"directory" sender:nil];
             break;
+        case 3:
+            [self performSegueWithIdentifier:@"location" sender:nil];
+            break;
         default:
             break;
     }
@@ -137,6 +148,16 @@
         [self.view addSubview:controller.view];
         [controller didMoveToParentViewController:self];
     } else if ([[segue identifier]isEqualToString:@"directory"]) {
+        NSLog(@"clicked directory cell");
+        
+        [self clearAllViewControllers];
+        UIViewController *controller = [segue destinationViewController];
+        [self addChildViewController:controller];
+        controller.view.frame = self.view.bounds;
+        [self.view addSubview:controller.view];
+        [controller didMoveToParentViewController:self];
+    }
+    else if ([[segue identifier]isEqualToString:@"location"]) {
         NSLog(@"clicked directory cell");
         
         [self clearAllViewControllers];
