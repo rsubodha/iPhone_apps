@@ -6,7 +6,7 @@
     "style": {
         "y":50,
         "x":10,
-        "height": 200,
+        "height": 400,
         "width": 300,
         "backgroundColor": "#C3D4EC"
     },
@@ -16,9 +16,9 @@
         "itemLayout": {
             "x": 0,
             "y": 0,
-            "width": 160,
-            "height": 150,
-            "backgroundColor": "#f0f0f0",
+            "width": 230,
+            "height": 300,
+            "backgroundColor": "#FCFEFC",
             "components": [
                            {
                            "bindKey": "title",
@@ -29,7 +29,7 @@
                            "notificationId": "",
                            "style": {
                            "x": 10,
-                           "y": 10,
+                           "y": 0,
                            "width": 180,
                            "height": 40,
                            "backgroundColor": "",
@@ -47,24 +47,96 @@
                            }
                            },
                            {
-                           "bindKey": "image",
+                           "bindKey": "map",
                            "componentJSON": {
-                           "id": "imageViewId1",
-                           "name": "imageViewId1",
-                           "class":"ATKImageView",
-                           "notificationId": "imageViewId1",
+                           "id": "atkmapview",
+                           "name": "Map1Widget",
+                           "class": "ATKMapView",
+                           "notificationId":"",
                            "style": {
-                           "x": 10,
-                           "y": 50,
-                           "width": 140,
-                           "height": 80,
-                           "backgroundColor": "#ffff00"
+                           "x":0,
+                           "y":40,
+                           "width":230,
+                           "height":210,
+                           "backgroundColor":""
+                           },
+                           "data" :{
+                           "annotations": [{
+                                           "long": 2.294481,
+                                           "lat": 48.85837,
+                                           "title": "Eiffel Tower",
+                                           "subtitle": "Champ de Mars"
+                                           },
+                                           {
+                                           "long": 2.291569,
+                                           "lat": 48.856485,
+                                           "title": "Stadium Emile Anthoine",
+                                           "subtitle": ""
+                                           }]
                            },
                            "properties": {
+                           "showUserLocation": "NO",
+                           "defaultRegion": {
+                           "long": 2.294481,
+                           "lat": 48.85837,
+                           "latitudeDelta": 0.01,
+                           "longitudeDelta": 0.01
+                           }
+                           }
+                           }
+                           },
+                           
+                           {
+                           "bindKey": "title_BusinessHours",
+                           "componentJSON": {
+                           "id": "titleLabelId0",
+                           "name": "titleLabelName0",
+                           "class":"ATKLabel",
+                           "notificationId": "",
+                           "style": {
+                           "x": 5,
+                           "y": 260,
+                           "width": 180,
+                           "height": 40,
+                           "backgroundColor": "",
+                           "text": "",
+                           "fontName": "AvenirNext-Regular",
+                           "fontSize": 15,
+                           "fontColor": "#000000",
+                           "numberOfLines": 0,
+                           "bindKey": "title"
+                           },
+                           "properties": {
+                           "text": "test"
                            },
                            "data": {
-                           "source": "nada.png",
-                           "type": "local"
+                           }
+                           }
+                           },
+                           
+                           {
+                           "bindKey": "title_HospitalStatus",
+                           "componentJSON": {
+                           "id": "titleLabelId1",
+                           "name": "titleLabelName1",
+                           "class":"ATKLabel",
+                           "notificationId": "",
+                           "style": {
+                           "x": 160,
+                           "y": 260,
+                           "width": 80,
+                           "height": 40,
+                           "backgroundColor": "",
+                           "text": "",
+                           "fontName": "AvenirNext-Regular",
+                           "fontSize": 15,
+                           "fontColor": "#000000",
+                           "bindKey": "title"
+                           },
+                           "properties": {
+                           "text": "test"
+                           },
+                           "data": {
                            }
                            }
                            }

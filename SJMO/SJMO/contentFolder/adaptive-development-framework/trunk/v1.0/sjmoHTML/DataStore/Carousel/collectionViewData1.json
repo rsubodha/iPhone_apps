@@ -1,92 +1,64 @@
-[
- {
-    "title": "Lake Nature",
-    "subtitle": "Description of Item 1",
-    "image": {
-        "source": "DataStore/Carousel/Resources/images/image1.jpg",
-        "type": "local"
-    }
+ [
+  {
+  "title": "Hospital 1",
+  "title_BusinessHours": "Business Hours",
+  "title_HospitalStatus": "CLOSED"
   },
   {
-    "title": "Mountains",
-    "subtitle": "Description of Item 2",
-    "image": {
-        "source": "DataStore/Carousel/Resources/images/image2.jpg",
-        "type": "local"
-    }
+  "title": "Hospital 2",
+  "title_BusinessHours": "Business Hours \n 9 AM to 6 PM",
+  "title_HospitalStatus": "CLOSED"
   },
   {
-    "title": "Glose Market",
-    "subtitle": "Description of Item 2",
-    "image": {
-            "source": "DataStore/Carousel/Resources/images/image3.jpg",
-            "type": "local"
-    }
+  "title": "Hospital 3",
+  "title_BusinessHours": "Business Hours",
+  "title_HospitalStatus": "CLOSED"
   },
   {
-    "title": "Lake Nature",
-    "image": {
-            "source": "DataStore/Carousel/Resources/images/image1.jpg",
-            "type": "local"
-    }
+  "title": "Hospital 4",
+  "title_BusinessHours": "Business Hours",
+  "title_HospitalStatus": "CLOSED"
   },
   {
-  "title": "Fantasy Gardens",
-  "image": {
-         "source": "DataStore/Carousel/Resources/images/image4.jpg",
-         "type": "local"
-    }
+  "title": "Hospital 5",
+  "title_BusinessHours": "Business Hours",
+  "title_HospitalStatus": "CLOSED",
+  
   },
   {
-  "title": "Ethel Merman NYC",
-  "image": {
-         "source": "DataStore/Carousel/Resources/images/image5.jpg",
-         "type": "local"
-    }
+  "title": "Hospital 6",
+  "title_BusinessHours": "Business Hours",
+  "title_HospitalStatus": "CLOSED"
+  
   },
- {
-     "title": "Lake Nature",
-     "subtitle": "Description of Item 1",
-     "image": {
-         "source": "DataStore/Carousel/Resources/images/image1.jpg",
-         "type": "local"
-     }
- },
- {
-     "title": "Mountains",
-     "subtitle": "Description of Item 2",
-     "image": {
-         "source": "DataStore/Carousel/Resources/images/image2.jpg",
-         "type": "local"
-     }
- },
- {
-     "title": "Glose Market",
-     "subtitle": "Description of Item 2",
-     "image": {
-         "source": "DataStore/Carousel/Resources/images/image3.jpg",
-         "type": "local"
-     }
- },
- {
-     "title": "Lake Nature",
-     "image": {
-         "source": "DataStore/Carousel/Resources/images/image1.jpg",
-         "type": "local"
-     }
- },
- {
-     "title": "Fantasy Gardens",
-     "image": {
-         "source": "DataStore/Carousel/Resources/images/image4.jpg",
-         "type": "local"
-     }
- },
- {
-     "title": "Ethel Merman NYC",
-     "image": {
-         "source": "DataStore/Carousel/Resources/images/image5.jpg",
-         "type": "local"
-     }
- }
-]
+  {
+  "title": "Hospital 7",
+  "title_BusinessHours": "Business Hours",
+  "title_HospitalStatus": "CLOSED"
+  },
+  {
+  "title": "Hospital 8",
+  "title_BusinessHours": "Business Hours",
+  "title_HospitalStatus": "CLOSED"
+  },
+  {
+  "title": "Hospital 9",
+  "title_BusinessHours": "Business Hours",
+  "title_HospitalStatus": "CLOSED"
+  },
+  {
+  "title": "Hospital 10",
+  "title_BusinessHours": "Business Hours",
+  "title_HospitalStatus": "CLOSED"
+  },
+  {
+  "title": "Hospital 11",
+  "title_BusinessHours": "Business Hours",
+  "title_HospitalStatus": "CLOSED"
+  },
+  {
+  "title": "Hospital 12",
+  "title_BusinessHours": "Business Hours",
+  "title_HospitalStatus": "CLOSED"
+  }
+  ]
