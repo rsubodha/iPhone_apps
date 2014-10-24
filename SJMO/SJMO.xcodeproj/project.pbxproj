@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FFC04C119F975060075C315 /* Iphone5_parallax.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FFC04C019F975060075C315 /* Iphone5_parallax.png */; };
 		11063CBF19F89C4B00040A1A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 11063CBE19F89C4B00040A1A /* libsqlite3.0.dylib */; };
 		11063CC119F89C5500040A1A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 11063CC019F89C5500040A1A /* libz.dylib */; };
 		11063CC319F89C5A00040A1A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11063CC219F89C5A00040A1A /* MessageUI.framework */; };
@@ -366,6 +367,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FFC04C019F975060075C315 /* Iphone5_parallax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Iphone5_parallax.png; path = image/Iphone5_parallax.png; sourceTree = "<group>"; };
 		11063CBE19F89C4B00040A1A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		11063CC019F89C5500040A1A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		11063CC219F89C5A00040A1A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -1206,6 +1208,7 @@
 		CBC0143C19E0F2DC00BBB26C /* images */ = {
 			isa = PBXGroup;
 			children = (
+				0FFC04C019F975060075C315 /* Iphone5_parallax.png */,
 				112EAE4B19F7967C00FA77EC /* about.png */,
 				112EAE4C19F7967C00FA77EC /* alerts.png */,
 				112EAE4D19F7967C00FA77EC /* directory.png */,
@@ -1593,6 +1596,7 @@
 				112EAFD419F7972500FA77EC /* heart-white.png in Resources */,
 				112EB01219F7972500FA77EC /* bars-white.svg in Resources */,
 				112EAFB019F7972500FA77EC /* bullets-white.png in Resources */,
+				0FFC04C119F975060075C315 /* Iphone5_parallax.png in Resources */,
 				112EB00119F7972500FA77EC /* arrow-d-r-white.svg in Resources */,
 				112EB06819F7972500FA77EC /* 222.jpg in Resources */,
 				112EAFCD19F7972500FA77EC /* forward-black.png in Resources */,
