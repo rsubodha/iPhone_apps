@@ -49,10 +49,10 @@
                            {
                            "bindKey": "map",
                            "componentJSON": {
-                           "id": "atkmapview",
+                           "id": "Map1Widget",
                            "name": "Map1Widget",
                            "class": "ATKMapView",
-                           "notificationId":"",
+                           "notificationId":"Map1Widget",
                            "style": {
                            "x":0,
                            "y":40,
@@ -95,18 +95,18 @@
                            "notificationId": "",
                            "style": {
                            "x": 5,
-                           "y": 260,
+                           "y": 240,
                            "width": 180,
-                           "height": 40,
+                           "height": 75,
                            "backgroundColor": "",
                            "text": "",
                            "fontName": "AvenirNext-Regular",
                            "fontSize": 15,
                            "fontColor": "#000000",
-                           "numberOfLines": 0,
                            "bindKey": "title"
                            },
                            "properties": {
+                           "numberOfLines":"0",
                            "text": "test"
                            },
                            "data": {
