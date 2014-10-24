@@ -1,64 +1,64 @@
  [
   {
   "title": "Hospital 1",
-  "title_BusinessHours": "Business Hours",
+  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM.",
   "title_HospitalStatus": "CLOSED"
   },
   {
   "title": "Hospital 2",
-  "title_BusinessHours": "Business Hours \n 9 AM to 6 PM",
+  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
   "title_HospitalStatus": "CLOSED"
   },
   {
   "title": "Hospital 3",
-  "title_BusinessHours": "Business Hours",
+  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
   "title_HospitalStatus": "CLOSED"
   },
   {
   "title": "Hospital 4",
-  "title_BusinessHours": "Business Hours",
+  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
   "title_HospitalStatus": "CLOSED"
   },
   {
   "title": "Hospital 5",
-  "title_BusinessHours": "Business Hours",
+  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
   "title_HospitalStatus": "CLOSED",
   
   },
   {
   "title": "Hospital 6",
-  "title_BusinessHours": "Business Hours",
+  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
   "title_HospitalStatus": "CLOSED"
   
   },
   {
   "title": "Hospital 7",
-  "title_BusinessHours": "Business Hours",
+  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
   "title_HospitalStatus": "CLOSED"
   },
   {
   "title": "Hospital 8",
-  "title_BusinessHours": "Business Hours",
+  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
   "title_HospitalStatus": "CLOSED"
   },
   {
   "title": "Hospital 9",
-  "title_BusinessHours": "Business Hours",
+  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
   "title_HospitalStatus": "CLOSED"
   },
   {
   "title": "Hospital 10",
-  "title_BusinessHours": "Business Hours",
+  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
   "title_HospitalStatus": "CLOSED"
   },
   {
   "title": "Hospital 11",
-  "title_BusinessHours": "Business Hours",
+  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
   "title_HospitalStatus": "CLOSED"
   },
   {
   "title": "Hospital 12",
-  "title_BusinessHours": "Business Hours",
+  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
   "title_HospitalStatus": "CLOSED"
   }
   ]
