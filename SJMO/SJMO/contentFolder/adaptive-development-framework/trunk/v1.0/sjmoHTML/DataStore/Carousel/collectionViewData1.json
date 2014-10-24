@@ -1,64 +1,142 @@
- [
-  {
-  "title": "Hospital 1",
-  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM.",
-  "title_HospitalStatus": "CLOSED"
-  },
-  {
-  "title": "Hospital 2",
-  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
-  "title_HospitalStatus": "CLOSED"
-  },
-  {
-  "title": "Hospital 3",
-  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
-  "title_HospitalStatus": "CLOSED"
-  },
-  {
-  "title": "Hospital 4",
-  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
-  "title_HospitalStatus": "CLOSED"
-  },
-  {
-  "title": "Hospital 5",
-  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
-  "title_HospitalStatus": "CLOSED",
-  
-  },
-  {
-  "title": "Hospital 6",
-  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
-  "title_HospitalStatus": "CLOSED"
-  
-  },
-  {
-  "title": "Hospital 7",
-  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
-  "title_HospitalStatus": "CLOSED"
-  },
-  {
-  "title": "Hospital 8",
-  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
-  "title_HospitalStatus": "CLOSED"
-  },
-  {
-  "title": "Hospital 9",
-  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
-  "title_HospitalStatus": "CLOSED"
-  },
-  {
-  "title": "Hospital 10",
-  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
-  "title_HospitalStatus": "CLOSED"
-  },
-  {
-  "title": "Hospital 11",
-  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
-  "title_HospitalStatus": "CLOSED"
-  },
-  {
-  "title": "Hospital 12",
-  "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
-  "title_HospitalStatus": "CLOSED"
-  }
-  ]
+[
+ {
+ "title": "Hospital 1",
+ "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM.",
+ "title_HospitalStatus": "CLOSED",
+ "map":{
+ "annotations": [{
+                 "long": 77.594563,
+                 "lat": 12.971599,
+                 "latitudeDelta": 0.01,
+                 "longitudeDelta": 0.01,
+                 "title": "Bangalore",
+                 "subtitle": "Garden"
+                 }]
+ }
+ },
+ {
+ "title": "Hospital 2",
+ "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
+ "title_HospitalStatus": "CLOSED",
+ "map":{
+ "annotations": [{
+                 "long": 76.654444,
+                 "lat": 12.303889,
+                 "latitudeDelta": 0.01,
+                 "longitudeDelta": 0.01,
+                 "title": "Mysore Palace",
+                 "subtitle": "Mysore"
+                 }]
+ }
+ },
+ {
+ "title": "Hospital 3",
+ "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
+ "title_HospitalStatus": "CLOSED",
+ "map":{
+ "annotations": [{
+                 "long": -74.012500,
+                 "lat": 40.711667,
+                 "latitudeDelta": 0.01,
+                 "longitudeDelta": 0.01,
+                 "title": "World Trade Center",
+                 "subtitle": "NewYork"
+                 }]
+ }
+ },
+ {
+ "title": "Hospital 4",
+ "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
+ "title_HospitalStatus": "CLOSED",
+ "map":{
+ "annotations": [{
+                 "long": 151.224771,
+                 "lat": -33.891646,
+                 "latitudeDelta": 0.01,
+                 "longitudeDelta": 0.01,
+                 "title": "SCG",
+                 "subtitle": "Australia"
+                 }]
+ }
+ },
+ {
+ "title": "Hospital 5",
+ "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
+ "title_HospitalStatus": "CLOSED",
+ "map":{
+ "annotations": [{
+                 "long": -122.030747,
+                 "lat": 37.332108,
+                 "latitudeDelta": 0.01,
+                 "longitudeDelta": 0.01,
+                 "title": "Infite Loop",
+                 "subtitle": "Apple INC"
+                 }]
+ }
+ },
+ {
+ "title": "Hospital 6",
+ "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
+ "title_HospitalStatus": "CLOSED",
+ "map":{
+ "annotations": [{
+                 "long": -122.478255,
+                 "lat": 37.819929,
+                 "latitudeDelta": 0.01,
+                 "longitudeDelta": 0.01,
+                 "title": "Golden Gate Bridge",
+                 "subtitle": "San Fransisco"
+                 }]
+ }
+ },
+ {
+ "title": "Hospital 7",
+ "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
+ "title_HospitalStatus": "CLOSED",
+ "map":{
+ "annotations": [{
+                 "long": 144.983380,
+                 "lat": -37.820006,
+                 "latitudeDelta": 0.01,
+                 "longitudeDelta": 0.01,
+                 "title": "MCG",
+                 "subtitle": "Australia"
+                 }]
+ }
+ },
+ {
+ "title": "Hospital 8",
+ "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
+ "title_HospitalStatus": "CLOSED",
+ "map":{
+ "annotations": [{
+                 "long": -0.087732,
+                 "lat": 51.507879,
+                 "latitudeDelta": 0.01,
+                 "longitudeDelta": 0.01,
+                 "title": "London Bridge",
+                 "subtitle": "London"
+                 }]
+ }
+ },
+ {
+ "title": "Hospital 9",
+ "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
+ "title_HospitalStatus": "CLOSED"
+ },
+ {
+ "title": "Hospital 10",
+ "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
+ "title_HospitalStatus": "CLOSED"
+ },
+ {
+ "title": "Hospital 11",
+ "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
+ "title_HospitalStatus": "CLOSED"
+ },
+ {
+ "title": "Hospital 12",
+ "title_BusinessHours": "Business Hours :\n 9 AM to 6 PM",
+ "title_HospitalStatus": "CLOSED"
+ }
+ ]

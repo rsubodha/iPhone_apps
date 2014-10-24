@@ -490,7 +490,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../../../Projects/Altimetrik_Vision/ADF_WorkOuts/GIT_Repo/CodeBase/Vision/Widgets/ATKMapView/ATKMapView.m"
-            timestampString = "435846555.278907"
+            timestampString = "435874839.641163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "72"
@@ -506,7 +506,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../../../Projects/Altimetrik_Vision/ADF_WorkOuts/GIT_Repo/CodeBase/Vision/Widgets/ATKMapView/ATKMapView.m"
-            timestampString = "435846555.278907"
+            timestampString = "435874839.641163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -522,7 +522,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../../../Projects/Altimetrik_Vision/ADF_WorkOuts/GIT_Repo/CodeBase/Vision/Widgets/ATKMapView/ATKMapView.m"
-            timestampString = "435846555.278907"
+            timestampString = "435874839.641163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "91"
@@ -538,28 +538,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../../../Projects/Altimetrik_Vision/ADF_WorkOuts/GIT_Repo/CodeBase/Vision/Widgets/ATKMapView/ATKMapView.m"
-            timestampString = "435846555.278907"
+            timestampString = "435874839.641163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "103"
             endingLineNumber = "103"
             landmarkName = "-loadData:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../../../../Projects/Altimetrik_Vision/ADF_WorkOuts/GIT_Repo/CodeBase/Vision/Widgets/ATKMapView/ATKMapView.m"
-            timestampString = "435846555.278907"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
-            landmarkName = "-setMapRegion:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -633,13 +617,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../../../Projects/Altimetrik_Vision/ADF_WorkOuts/GIT_Repo/CodeBase/Vision/Widgets/ATKUICollectionView/ATKCollectionViewItem.m"
-            timestampString = "435846555.278907"
+            filePath = "../../../../../Projects/Altimetrik_Vision/ADF_WorkOuts/GIT_Repo/CodeBase/Vision/Widgets/ATKMapView/ATKMapView.m"
+            timestampString = "435874839.641163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "154"
-            endingLineNumber = "154"
-            landmarkName = "-loadValues:"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "-setValue:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Projects/Altimetrik_Vision/ADF_WorkOuts/GIT_Repo/CodeBase/Vision/Widgets/ATKMapView/ATKMapView.m"
+            timestampString = "435874839.641163"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "-loadData:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -649,13 +649,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../../../Projects/Altimetrik_Vision/ADF_WorkOuts/GIT_Repo/CodeBase/Vision/Widgets/ATKUICollectionView/ATKCollectionViewItem.m"
-            timestampString = "435846555.278907"
+            filePath = "../../../../../Projects/Altimetrik_Vision/ADF_WorkOuts/GIT_Repo/CodeBase/Vision/Widgets/ATKMapView/ATKMapView.m"
+            timestampString = "435874839.641163"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "-loadValues:"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "-setMapRegion:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
