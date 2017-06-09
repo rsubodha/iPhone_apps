@@ -31,12 +31,6 @@
 		110D27AF19F8122C00E30823 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110D27AE19F8122C00E30823 /* LocationViewController.m */; };
 		110D27B219F8130800E30823 /* Config.json in Resources */ = {isa = PBXBuildFile; fileRef = 110D27B019F8130800E30823 /* Config.json */; };
 		110D27B319F8130800E30823 /* contentFolder in Resources */ = {isa = PBXBuildFile; fileRef = 110D27B119F8130800E30823 /* contentFolder */; };
-		112EAE5119F7967C00FA77EC /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 112EAE4B19F7967C00FA77EC /* about.png */; };
-		112EAE5219F7967C00FA77EC /* alerts.png in Resources */ = {isa = PBXBuildFile; fileRef = 112EAE4C19F7967C00FA77EC /* alerts.png */; };
-		112EAE5319F7967C00FA77EC /* directory.png in Resources */ = {isa = PBXBuildFile; fileRef = 112EAE4D19F7967C00FA77EC /* directory.png */; };
-		112EAE5419F7967C00FA77EC /* locations.png in Resources */ = {isa = PBXBuildFile; fileRef = 112EAE4E19F7967C00FA77EC /* locations.png */; };
-		112EAE5519F7967C00FA77EC /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 112EAE4F19F7967C00FA77EC /* maps.png */; };
-		112EAE5619F7967C00FA77EC /* services.png in Resources */ = {isa = PBXBuildFile; fileRef = 112EAE5019F7967C00FA77EC /* services.png */; };
 		112EAF8B19F7972500FA77EC /* default-color.css in Resources */ = {isa = PBXBuildFile; fileRef = 112EAE5819F7972500FA77EC /* default-color.css */; };
 		112EAF8C19F7972500FA77EC /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 112EAE5919F7972500FA77EC /* default.css */; };
 		112EAF8D19F7972500FA77EC /* fullcalendar.css in Resources */ = {isa = PBXBuildFile; fileRef = 112EAE5A19F7972500FA77EC /* fullcalendar.css */; };
@@ -406,12 +400,6 @@
 		110D27AE19F8122C00E30823 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		110D27B019F8130800E30823 /* Config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Config.json; path = SJMO/Config.json; sourceTree = "<group>"; };
 		110D27B119F8130800E30823 /* contentFolder */ = {isa = PBXFileReference; lastKnownFileType = folder; name = contentFolder; path = SJMO/contentFolder; sourceTree = "<group>"; };
-		112EAE4B19F7967C00FA77EC /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
-		112EAE4C19F7967C00FA77EC /* alerts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alerts.png; sourceTree = "<group>"; };
-		112EAE4D19F7967C00FA77EC /* directory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = directory.png; sourceTree = "<group>"; };
-		112EAE4E19F7967C00FA77EC /* locations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locations.png; sourceTree = "<group>"; };
-		112EAE4F19F7967C00FA77EC /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
-		112EAE5019F7967C00FA77EC /* services.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = services.png; sourceTree = "<group>"; };
 		112EAE5819F7972500FA77EC /* default-color.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "default-color.css"; sourceTree = "<group>"; };
 		112EAE5919F7972500FA77EC /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
 		112EAE5A19F7972500FA77EC /* fullcalendar.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = fullcalendar.css; sourceTree = "<group>"; };
@@ -1209,12 +1197,6 @@
 			isa = PBXGroup;
 			children = (
 				0FFC04C019F975060075C315 /* Iphone5_parallax.png */,
-				112EAE4B19F7967C00FA77EC /* about.png */,
-				112EAE4C19F7967C00FA77EC /* alerts.png */,
-				112EAE4D19F7967C00FA77EC /* directory.png */,
-				112EAE4E19F7967C00FA77EC /* locations.png */,
-				112EAE4F19F7967C00FA77EC /* maps.png */,
-				112EAE5019F7967C00FA77EC /* services.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -1354,7 +1336,7 @@
 				TargetAttributes = {
 					CBC15B3A19DDB462001122BD = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = 2DL4PX587D;
+						ProvisioningStyle = Manual;
 					};
 					CBC15B5319DDB462001122BD = {
 						CreatedOnToolsVersion = 6.0;
@@ -1408,7 +1390,6 @@
 				112EB03119F7972500FA77EC /* forward-black.svg in Resources */,
 				112EB03319F7972500FA77EC /* gear-black.svg in Resources */,
 				112EB05B19F7972500FA77EC /* video-black.svg in Resources */,
-				112EAE5119F7967C00FA77EC /* about.png in Resources */,
 				112EAFB219F7972500FA77EC /* calendar-white.png in Resources */,
 				112EAFC119F7972500FA77EC /* cloud-black.png in Resources */,
 				112EAFFD19F7972500FA77EC /* arrow-d-black.svg in Resources */,
@@ -1448,7 +1429,6 @@
 				112EAFA319F7972500FA77EC /* arrow-u-black.png in Resources */,
 				112EB0B219F7972500FA77EC /* jquery.neosmart.fb.wall.js in Resources */,
 				112EB04A19F7972500FA77EC /* plus-white.svg in Resources */,
-				112EAE5519F7967C00FA77EC /* maps.png in Resources */,
 				112EAF9D19F7972500FA77EC /* arrow-d-r-white.png in Resources */,
 				112EAFD019F7972500FA77EC /* gear-white.png in Resources */,
 				112EB08519F7972500FA77EC /* doc-dtls-bot.png in Resources */,
@@ -1456,7 +1436,6 @@
 				112EAFE619F7972500FA77EC /* plus-white.png in Resources */,
 				112EB00019F7972500FA77EC /* arrow-d-r-black.svg in Resources */,
 				112EAF9119F7972500FA77EC /* icons-18-black.png in Resources */,
-				112EAE5219F7967C00FA77EC /* alerts.png in Resources */,
 				112EB02919F7972500FA77EC /* delete-black.svg in Resources */,
 				112EB09719F7972500FA77EC /* home_gray_20x20.png in Resources */,
 				112EB07219F7972500FA77EC /* about.png in Resources */,
@@ -1531,7 +1510,6 @@
 				112EB03819F7972500FA77EC /* heart-white.svg in Resources */,
 				112EAFFF19F7972500FA77EC /* arrow-d-l-white.svg in Resources */,
 				112EB05119F7972500FA77EC /* search-black.svg in Resources */,
-				112EAE5419F7967C00FA77EC /* locations.png in Resources */,
 				112EAFB419F7972500FA77EC /* camera-white.png in Resources */,
 				112EB01E19F7972500FA77EC /* carat-r-white.svg in Resources */,
 				112EAFCA19F7972500FA77EC /* eye-white.png in Resources */,
@@ -1557,7 +1535,6 @@
 				112EB09F19F7972500FA77EC /* images2.jpg in Resources */,
 				112EAFBD19F7972500FA77EC /* check-black.png in Resources */,
 				112EAF9219F7972500FA77EC /* icons-18-white.png in Resources */,
-				112EAE5319F7967C00FA77EC /* directory.png in Resources */,
 				112EAFA719F7972500FA77EC /* arrow-u-r-white.png in Resources */,
 				112EB0AB19F7972500FA77EC /* dynamicmap.js in Resources */,
 				112EB05519F7972500FA77EC /* star-black.svg in Resources */,
@@ -1670,7 +1647,6 @@
 				112EB02019F7972500FA77EC /* carat-u-white.svg in Resources */,
 				112EB0AD19F7972500FA77EC /* google.maps.js in Resources */,
 				112EAFF919F7972500FA77EC /* action-black.svg in Resources */,
-				112EAE5619F7967C00FA77EC /* services.png in Resources */,
 				112EB01A19F7972500FA77EC /* carat-d-white.svg in Resources */,
 				112EAF9F19F7972500FA77EC /* arrow-l-black.png in Resources */,
 				112EB03019F7972500FA77EC /* forbidden-white.svg in Resources */,
@@ -1850,6 +1826,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SJMO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1862,6 +1839,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1872,6 +1850,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SJMO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1884,6 +1863,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
